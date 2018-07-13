@@ -21,8 +21,7 @@ class CashRegister
   end
 
   def items
-    items << self
-    @items
+    items.map{|items| @items.push(items)}
   end
 
 end
