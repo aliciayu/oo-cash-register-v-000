@@ -15,7 +15,7 @@ class CashRegister
     @total = (total - 200)
      if discount
        "After the discount, the total comes to $800."
-     elsif !discount
+     elsif
        "There is no discount to apply."
      end
   end
