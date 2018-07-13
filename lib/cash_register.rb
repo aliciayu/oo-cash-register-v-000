@@ -21,7 +21,7 @@ class CashRegister
   end
 
   def items
-    @items = []
+    @items = items.sort
   end
 
 end
