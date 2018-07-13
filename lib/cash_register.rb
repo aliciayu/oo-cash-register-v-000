@@ -8,7 +8,8 @@ class CashRegister
   end
 
   def add_item(title, price, quantity=1)
-    @items << (title * quantity.split(", "))
+    @items << (title * quantity.split.map do |items|
+      items.split(", ")
     @total += (price * quantity)
   end
 
