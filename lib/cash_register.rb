@@ -20,8 +20,8 @@ class CashRegister
   end
 
   def items
-    @items = items.join(", ")
-    @items
+    items = {}
+    @items.each do |items|
   end
 
 end
