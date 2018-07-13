@@ -8,7 +8,7 @@ class CashRegister
   end
 
   def add_item(title, price, quantity=1)
-    @items << (title * quantity)
+    @items << (title * quantity.split(", "))
     @total += (price * quantity)
   end
 
@@ -22,7 +22,7 @@ class CashRegister
   end
 
   def items
-    @items.split(", ")
+    @items
   end
 
 end
