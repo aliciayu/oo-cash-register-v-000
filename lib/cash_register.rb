@@ -17,6 +17,7 @@ class CashRegister
        "After the discount, the total comes to $800."
      elsif !discount
        "There is no discount to apply."
+     end
 
   end
 end
