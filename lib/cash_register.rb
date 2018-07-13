@@ -21,8 +21,8 @@ class CashRegister
   end
 
   def items
-    result = items.join(", ")
-    result
+    @items = items.join(", ")
+    items
   end
 
 end
