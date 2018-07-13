@@ -18,6 +18,5 @@ class CashRegister
      elsif !discount
        "There is no discount to apply."
      end
-
   end
 end
