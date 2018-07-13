@@ -13,7 +13,7 @@ class CashRegister
 
   def apply_discount
     if discount
-      @total = (total - 20%)
+      @total = (total - 200)
       "After the discount, the total comes to $800."
     elsif !apply_discount
       puts "There is no discount to apply."
