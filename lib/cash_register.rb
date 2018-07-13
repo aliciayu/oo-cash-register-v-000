@@ -21,7 +21,7 @@ class CashRegister
   end
 
   def items
-    items = items.sort
+    items = items
   end
 
 end
