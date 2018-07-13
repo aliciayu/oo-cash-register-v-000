@@ -20,8 +20,8 @@ class CashRegister
     end
   end
 
-  def items
-    @items << items
+  def item
+    @items << item
   end
 
 end
