@@ -22,7 +22,7 @@ class CashRegister
 
   def items
     items = items.join(", ")
-    items
+    @items
   end
 
 end
