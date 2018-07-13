@@ -22,6 +22,7 @@ class CashRegister
 
   def items
     @items = items.join(", ")
+    @items
   end
 
 end
