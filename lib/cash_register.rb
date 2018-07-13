@@ -20,7 +20,7 @@ class CashRegister
     end
   end
 
-  def items(item)
-    items = item
+  def items(items)
+    items = items
   end
 end
